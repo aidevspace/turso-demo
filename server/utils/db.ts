@@ -1,5 +1,5 @@
-import { drizzle } from "drizzle-orm/libsql/node";
-import { createClient } from "@libsql/client/node";
+import { drizzle } from "drizzle-orm/libsql";
+import { createClient } from "@libsql/client";
 import * as schema from "../database/schema";
 
 export const useDb = () => {
